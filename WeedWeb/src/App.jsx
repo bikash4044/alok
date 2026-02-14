@@ -10,7 +10,7 @@ function App() {
   const [timeSeries, setTimeSeries] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_BASE = "http://localhost:8000";
+  const API_BASE = "https://private00.pythonanywhere.com";
 
   useEffect(() => {
     const fetchData = async () => {
