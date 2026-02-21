@@ -1,0 +1,24 @@
+captured photo
+weed detection photo
+thermal photo
+
+weather api result
+
+canopy cover timeseries
+
+LAI timeseries
+
+Plant growth metrices
+
+current soil moisture and option to set threshold
+
+Crop condition
+
+Yield prediction timeline
+
+
+
+
+modifications:
+- click n enlarge photo (keep small)
+- add current value for plots (latest)
