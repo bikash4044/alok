@@ -19,11 +19,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [isSubscribed, setIsSubscribed] = useState(false);
 
-  // --- IMPORTANT: HOST CONFIGURATION ---
-  // Use your Laptop's IP (e.g., 192.168.4.4) to allow access from mobile.
-  // If running only locally, use http://127.0.0.1:8000
-  const API_BASE = "http://192.168.4.4:8000"; 
-  // const API_BASE = "http://127.0.0.1:8000"; 
+  const API_BASE = "https://private00.pythonanywhere.com";
 
   // --- NOTIFICATION LOGIC ---
   const urlBase64ToUint8Array = (base64String) => {
